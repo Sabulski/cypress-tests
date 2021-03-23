@@ -1,1 +1,19 @@
-{}
+{
+  "base_url": "",
+  "defaultCommandTimeout": 10000,
+  "defaultObjectTimeout": 10000,
+  "env": {
+    "defaultWaitTime": 5000
+  },
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "pageLoadTimeout": 20000,
+  "screenshotsFolder": "cypress/screenshots",
+  "testFiles": "**/*.feature",
+  "video": true,
+  "viewportHeight": 900,
+  "viewportWidth": 1440,
+  "watchForFileChanges": false
+}
