@@ -21,5 +21,5 @@ import 'cypress-xpath';
 // require('./commands')
 
 Cypress.Cookies.defaults({
-  preserve: "OptanonConsent",
+  preserve: ["OptanonConsent", "OptanonAlertBoxClosed"],
 });
