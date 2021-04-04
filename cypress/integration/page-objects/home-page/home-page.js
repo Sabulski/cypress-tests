@@ -1,4 +1,4 @@
-import url from "../../../fixtures/json/url.json"
+import url from "../../../fixtures/json/url.json";
 
 export default class HomePage {
   visit() {
