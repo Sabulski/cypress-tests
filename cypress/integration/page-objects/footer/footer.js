@@ -3,7 +3,7 @@ const footer = {
 };
 
 export default class Footer {
-  clickNutritionAndAllergensButton () {
+  clickNutritionAndAllergensButton() {
     cy.get(footer.nutritionAndAllergensFooterButton).click();
   }
 }
